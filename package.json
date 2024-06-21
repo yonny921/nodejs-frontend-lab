@@ -1,19 +1,18 @@
 {
-  "dependencies": {
-    "body-parser": "^1.20.1",
-    "cheerio": "^1.0.0-rc.12",
-    "ejs": "^3.1.8",
-    "express": "^4.18.2",
-    "got": "^11.8.3",
-    "nodemon": "^2.0.20"
-  },
-  "name": "nodejs-web-scraping",
+  "name": "nodejs-frontend-lab",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "Jordan Selig",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "got": "^14.4.1"
+  }
 }
